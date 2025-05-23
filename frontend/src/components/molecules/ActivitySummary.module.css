@@ -1,0 +1,45 @@
+.container {
+  background: white;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #1f2937;
+  margin: 0 0 1rem 0;
+}
+
+.scores {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.scoreItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  background: #f9fafb;
+  border-radius: 6px;
+  transition: background-color 0.2s;
+}
+
+.scoreItem:hover {
+  background: #f3f4f6;
+}
+
+.activityName {
+  font-weight: 500;
+  color: #374151;
+}
+
+.score {
+  font-weight: 600;
+  color: #2563eb;
+  font-size: 1.1rem;
+}

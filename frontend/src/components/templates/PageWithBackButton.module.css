@@ -1,0 +1,48 @@
+.app {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #f9fafb;
+}
+
+.appHeader {
+  background: white;
+  border-bottom: 1px solid #e5e7eb;
+  padding: 1rem 0rem;
+}
+
+.headerContent {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.backButton {
+  background: none;
+  border: none;
+  color: #4b5563;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 0.5rem 0;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.backButton:hover {
+  color: #111827;
+}
+
+.appTitle {
+  font-size: 1.5rem;
+  color: #111827;
+  margin: 0;
+}
+
+.mainContent {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1rem;
+}

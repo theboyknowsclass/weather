@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.date {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin: 0;
+  padding-bottom: 0.15rem;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  font-size: 0.7rem;
+}
+
+.activitySection {
+  margin-top: 0.5rem;
+  border-top: 1px solid #eee;
+  padding-top: 0.3rem;
+}
+.activityHeader {
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+.activityList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.activityItem {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.7rem;
+}
+.activityName {
+  color: #374151;
+}
+.activityScore {
+  font-weight: 600;
+  color: #2563eb;
+}
